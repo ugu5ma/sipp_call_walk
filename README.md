@@ -13,7 +13,7 @@ script for Sipp to generate failed Register-attempts fromn one source
 #### open a terminal and run: 
 -sipp -t l1 -sn uas
 
-#### If the output say something like "..you must compile with Sipp..." you have to run an extra-round :)
+#### If the output says something like "..you must compile with Sipp..." you have to run an extra-round :)
 
 
 ##  2client-uac-auth-not-ok.sh
