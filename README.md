@@ -1,6 +1,11 @@
 # sipp_call_walk
 script for Sipp to generate failed Register-attempts fromn one source
 
+
+[x] ## execute the script with "sh 2client-uac-auth-not-ok.sh"
+
+
+
 ## Prerequisites: Sipp needs to be compiled with TLS (Openssl)
 
 #### a short test helps to determine if Sipp has TLS capabilities:
@@ -29,7 +34,7 @@ sipp -sf client-uac-auth-nok.xml -inf numberlistfail2.csv -max_socket 200 -r 1 5
 ######   -tls_key ./sippuac.key          "Set the name for TLS Private Key file"
 ######   -tls_cert ./sippuac.pem         "Set the name for TLS Certificate file"
 ######
-## execute the script with "sh 2client-uac-auth-not-ok.sh"
+
   
 ## numberlistfail2.csv
 ### SEQUENTIAL
