@@ -1,7 +1,7 @@
 # sipp_call_walk
 script for Sipp to generate failed Register-attempts fromn one source
 
-## Prerequisites: Sipp needs to be compiled with TLS (Openssl)-
+## Prerequisites: Sipp needs to be compiled with TLS (Openssl)
 
 #### a short test helps to determine if Sipp has TLS capabilities:
 
