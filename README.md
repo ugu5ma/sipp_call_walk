@@ -29,6 +29,8 @@ sipp -sf client-uac-auth-nok.xml -inf numberlistfail2.csv -max_socket 200 -r 1 5
 ######   -tls_key ./sippuac.key          "Set the name for TLS Private Key file"
 ######   -tls_cert ./sippuac.pem         "Set the name for TLS Certificate file"
 ######
+## execute the script with "sh 2client-uac-auth-not-ok.sh"
+  
 ## numberlistfail2.csv
 ### SEQUENTIAL
 ###### 2000205;x;sipdomain.com;[authentication username=x password=y];
