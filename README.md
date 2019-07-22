@@ -42,5 +42,5 @@ sipp -sf client-uac-auth-nok.xml -inf numberlistfail2.csv -max_socket 200 -r 1 5
 ###### 2000206;x;sipdomain.com;[authentication username=x password=y];
 ###### 2000207;x;sipdomain.com;[authentication username=x password=y];
 ###### 2000208;x;sipdomain.com;[authentication username=x password=y];
-###### Parameter-desscription
+###### Parameter-description
 ###### Extension;n/a;SIP-Domain;[username password];
