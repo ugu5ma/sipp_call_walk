@@ -3,12 +3,12 @@ script for Sipp to generate failed Register-attempts fromn one source
 
 ## Prerequisites: Sipp needs to be compiled with TLS (Openssl)-
 
-### a short test helps to determine if Sipp has TLS capabilities:
+#### a short test helps to determine if Sipp has TLS capabilities:
 
-### open a terminal and run: 
+#### open a terminal and run: 
 -sipp -t l1 -sn uas
 
-### If the output say something like "..you must compile with Sipp..." you have to run an extra-round :)
+#### If the output say something like "..you must compile with Sipp..." you have to run an extra-round :)
 
 
 ##  2client-uac-auth-not-ok.sh
