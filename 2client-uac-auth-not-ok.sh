@@ -18,4 +18,5 @@ sipp -sf client-uac-auth-nok.xml -inf numberlistfail2.csv -max_socket 200 -r 1 5
 #   -trace_err                      "Trace all unexpected messages in <scenario file name>_<pid>_errors.log."
 #   -tls_key ./sippuac.key          "Set the name for TLS Private Key file"
 #   -tls_cert ./sippuac.pem         "Set the name for TLS Certificate file"
-#
+#   
+#   -default_behaviors all,-bye     "optional: removes the BYE message"
