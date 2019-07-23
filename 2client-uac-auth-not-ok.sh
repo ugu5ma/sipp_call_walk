@@ -1,6 +1,6 @@
 #!/bin/bash
 rm -f *.log 
-sipp -sf client-uac-auth-nok.xml -inf numberlistfail2.csv -max_socket 200 -r 1 52.57.150.213:5061 -t ln -p 5063 -m 200 -l 1 -trace_stat -stf stats.csv -trace_screen -trace_err -tls_key ./sippuac.key -tls_cert ./sippuac.pem 
+sipp -sf client-uac-auth-nok.xml -inf numberlistfail2.csv -max_socket 200 -r 1 192.168.1.100:5061 -t ln -p 5063 -m 200 -l 1 -trace_stat -stf stats.csv -trace_screen -trace_err -tls_key ./sippuac.key -tls_cert ./sippuac.pem 
 
 #
 #   Parameter description
