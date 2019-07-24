@@ -8,17 +8,20 @@ script for Sipp to generate failed Register-attempts fromn one source
 
 ## Prerequisites: Sipp needs to be compiled with TLS (Openssl)
 
-#### a short test helps to determine if Sipp has TLS capabilities:
-
-#### open a terminal and run: 
+a short test helps to determine if Sipp has TLS capabilities:
+ open a terminal and run:
+```bash
 -sipp -t l1 -sn uas
+```
 
 #### If the output says something like "..you must compile with Sipp..." you have to run an extra-round :)
 
 
 ##  2client-uac-auth-not-ok.sh
+```bash
 #!/bin/bash
 sipp -sf client-uac-auth-nok.xml -inf numberlistfail2.csv -max_socket 200 -r 1 52.57.150.213:5061 -t ln -p 5063 -m 200 -l 1 -trace_stat -stf stats.csv -trace_screen -trace_err -tls_key ./sippuac.key -tls_cert ./sippuac.pem
+```
 ##   Parameter description
 ######   -sf client-uac-auth-nok.xml     "Loads an alternate XML scenario file, use the -sd option to dump embedded scenarios"
 ######   -inf numberlistfail2.csv        "Inject values from an external CSV file during calls into the scenarios"
