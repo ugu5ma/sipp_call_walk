@@ -1,5 +1,5 @@
 # sipp_call_walk
-script for Sipp to generate failed Register-attempts fromn one source
+script for Sipp to generate failed Register-attempts from one source
 
 
 [x] ## execute the script with "sh 2client-uac-auth-not-ok.sh"
